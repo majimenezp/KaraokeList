@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.resultitem
+{
+	width:400px;
+	border-bottom:1px solid black;
+}
+.pedido
+{
+	width:400px;
+	border-bottom:1px solid black;
+}
+.cancion{
+	font-weight:bold;
+	font-size:1.2em;
+}
+.sol{
+	font-weight:bold;
+	font-size:1em;
+}

@@ -1,0 +1,13 @@
+h1= title
+div
+	each item in Resultados.registros
+		div.resultitem
+			div.informacion
+				h2= item.Archivo
+				span= item.Artista
+				form(name="forma",action="/Solicitar",method="post")
+					input#nombrePersona(name="nombrePersona")
+					input(name="rutaArchivo",type="hidden",value= item.Ruta +"\\"+item.Archivo)
+					input(name="id",type="hidden",value=""+item._id)
+					input(type="submit",value="Pedir")
+	

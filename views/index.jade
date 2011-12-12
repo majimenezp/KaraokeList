@@ -1,0 +1,11 @@
+h1= title
+p Busqueda
+div
+	form#forma(name="forma",action="/Busqueda",method="post")
+		input#busqueda(type="text",name="busqueda")
+		input(type="submit",value="Buscar")
+div#pendientes
+	each item in Pedidos
+		div.pedido
+			p.cancion Cancion: #{item.Cancion}
+			p.sol Solicitante #{item.Persona}

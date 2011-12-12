@@ -1,0 +1,10 @@
+h1= title
+div#pendientes
+	each item in Pedidos
+		div.pedido
+			p.cancion Cancion: #{item.Cancion}
+			p.sol Solicitante #{item.Persona}
+			a.archivo(href=item.Ruta) Archivo
+			br
+			br
+			a.quitar(href="/quitarpedido/" + item._id) Despachado

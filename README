@@ -1,0 +1,25 @@
+¿Que es kararokeList?
+Es una aplicacion desarrollada en NodeJS que permite indexar una carpeta con archivos .cdg y .kar para cargarlos en una base de datos de mongodb. Para realizar busquedas de las canciones indexadas y la gente pueda acceder desde un navegador movil, y realizar pedidos de canciones.
+
+Las rutas que pueden usarse por ejemplo:
+
+http://localhost:3000/
+Muestra la pantalla de busqueda y un listado de las solicitudes de canciones de las personas en la fiesta
+
+http://localhost:3000/iniciar
+Inicia la indexacion de los archivos en la carpeta indicada en el archivo config.js
+
+http://localhost:3000/pedidos
+Muestra la lista de pedidos hechos por el usuario, y muestra los datos de ubicacion del archivo en el servidor, y permite eliminar el pedido ya que haya sido atendido
+
+Requerimientos:
+Un server de mongodb
+Que los usuarios tengan acceso a la web por medio de una wifi
+
+Esta aplicacion se desarrollo para una fiesta de la oficina en una tarde, y para praticar el uso de mongodb, filesystem,path y express con nodejs, asi que no esperen mucho.
+
+Por hacer:
+Agregar socket.io para que la lista de pedidos se actualice en tiempo real
+Diseño mas decente
+Quizas mostrar el archivo cdg y el mp3 en la web para que sea automatico el paso de las canciones, quizas usando html5, canvas y sound.
+
