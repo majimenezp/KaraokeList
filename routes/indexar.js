@@ -10,7 +10,7 @@ options={
 	followLinks: false
 };
 
-module.exports=function(app){
+module.exports=function(app,conexionCliente){
 	app.get("/iniciar",function(req,res){
 
 		///
@@ -67,7 +67,8 @@ module.exports=function(app){
 
 	app.get("/quitarpedido/:id",function(req,res){
 		pedido.findById(req.params.id,function(err,doc){
-			doc.remove();
+			conexionCliente.emit('EliminarPedido',{Id:doc._id});			
+			doc.remove();			
 			res.redirect("/pedidos");
 		});
 	});

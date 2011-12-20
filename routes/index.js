@@ -1,11 +1,6 @@
-var config = require('../config')
-var redis = require("redis"),
-    client = redis.createClient();
+var config = require('../config');
 var pedido=require("../models/pedido.js");
 
-client.on("error", function (err) {
-    console.log("Error " + err);
-});
 /*
  * GET home page.
  */

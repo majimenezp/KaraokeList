@@ -4,7 +4,9 @@ div#pendientes
 		div.pedido
 			p.cancion Cancion: #{item.Cancion}
 			p.sol Solicitante #{item.Persona}
-			a.archivo(href=item.Ruta) Archivo
+			a.archivo(href=item.Ruta) Archivo: 
+			span= item.Ruta
 			br
 			br
 			a.quitar(href="/quitarpedido/" + item._id) Despachado
+			script(src='/javascripts/pedidos.js')

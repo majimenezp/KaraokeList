@@ -4,7 +4,7 @@ var archv=require("../models/archivo.js");
 var pedido=require("../models/pedido.js");
 
 
-module.exports=function(app){
+module.exports=function(app,conexionCliente){
 	app.post("/busqueda",function(req,res){
 
 		var resultados={
@@ -43,6 +43,7 @@ module.exports=function(app){
 			solped.Cancion=docto.Archivo;
 			solped.Fecha=fechaAct;
 			solped.save();
+			conexionCliente.emit('ActualizaPedidos',{Nombre:solped.Persona,Cancion:solped.Cancion,Ruta:solped.Ruta,Id:solped._id});
 			res.redirect("/");
 		});
 	});

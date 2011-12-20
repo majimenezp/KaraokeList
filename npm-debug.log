@@ -1,0 +1,1055 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'socket.io' ]
+info using npm@1.0.106
+info using node@v0.6.3
+verbose config file /home/vagrant/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+silly testEngine { name: 'application-name',
+silly testEngine   version: '0.0.1',
+silly testEngine   private: true,
+silly testEngine   dependencies: { express: '2.5.1', jade: '>= 0.0.1' },
+silly testEngine   _id: 'application-name@0.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /vagrant/KarList/karList/package.json
+verbose loadDefaults application-name@0.0.1
+silly testEngine { name: 'express',
+silly testEngine   description: 'Sinatra inspired web development framework',
+silly testEngine   version: '2.5.1',
+silly testEngine   author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly testEngine      { name: 'Aaron Heckmann',
+silly testEngine        email: 'aaron.heckmann+github@gmail.com' },
+silly testEngine      { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly testEngine      { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly testEngine   dependencies: 
+silly testEngine    { connect: '1.8.x',
+silly testEngine      mime: '>= 0.0.1',
+silly testEngine      qs: '>= 0.3.1',
+silly testEngine      mkdirp: '0.0.7' },
+silly testEngine   devDependencies: 
+silly testEngine    { 'connect-form': '0.2.1',
+silly testEngine      ejs: '0.4.2',
+silly testEngine      expresso: '0.9.2',
+silly testEngine      hamljs: '0.5.1',
+silly testEngine      jade: '0.16.2',
+silly testEngine      stylus: '0.13.0',
+silly testEngine      should: '0.3.2',
+silly testEngine      'express-messages': '0.0.2',
+silly testEngine      'node-markdown': '>= 0.0.1',
+silly testEngine      'connect-redis': '>= 0.0.1' },
+silly testEngine   keywords: [ 'framework', 'sinatra', 'web', 'rest', 'restful' ],
+silly testEngine   repository: { type: 'git', url: 'git://github.com/visionmedia/express.git' },
+silly testEngine   main: 'index',
+silly testEngine   bin: { express: './bin/express' },
+silly testEngine   scripts: { test: 'make test', prepublish: 'npm prune' },
+silly testEngine   engines: { node: '>= 0.4.1 < 0.7.0' },
+silly testEngine   _id: 'express@2.5.1',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /vagrant/KarList/karList/node_modules/express/package.json
+verbose loadDefaults express@2.5.1
+silly testEngine { name: 'jade',
+silly testEngine   description: 'Jade template engine',
+silly testEngine   version: '0.19.0',
+silly testEngine   author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly testEngine   repository: { type: 'git', url: 'git://github.com/visionmedia/jade.git' },
+silly testEngine   main: './index.js',
+silly testEngine   bin: { jade: './bin/jade' },
+silly testEngine   dependencies: { commander: '0.2.x', mkdirp: '>= 0.0.7' },
+silly testEngine   devDependencies: 
+silly testEngine    { mocha: '*',
+silly testEngine      'coffee-script': '>= 0.0.1',
+silly testEngine      markdown: '>= 0.0.1',
+silly testEngine      stylus: '>= 0.0.1',
+silly testEngine      uubench: '0.0.1',
+silly testEngine      'uglify-js': '>= 1.0.7' },
+silly testEngine   scripts: { prepublish: 'npm prune' },
+silly testEngine   engines: { node: '>= 0.1.98' },
+silly testEngine   _id: 'jade@0.19.0',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /vagrant/KarList/karList/node_modules/jade/package.json
+verbose loadDefaults jade@0.19.0
+silly testEngine { name: 'mongoose',
+silly testEngine   description: 'Mongoose MongoDB ODM',
+silly testEngine   version: '2.4.1',
+silly testEngine   author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+silly testEngine   keywords: [ 'mongodb', 'mongoose', 'orm', 'data', 'datastore', 'nosql' ],
+silly testEngine   dependencies: { hooks: '0.1.9', mongodb: '0.9.7-1.4', colors: '0.5.1' },
+silly testEngine   devDependencies: { should: '0.2.1', gleak: '0.2.1' },
+silly testEngine   directories: { lib: './lib/mongoose' },
+silly testEngine   scripts: { test: 'make test' },
+silly testEngine   main: './index.js',
+silly testEngine   engines: { node: '>= 0.4.0' },
+silly testEngine   repository: { type: 'git', url: 'git://github.com/LearnBoost/mongoose.git' },
+silly testEngine   _id: 'mongoose@2.4.1',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /vagrant/KarList/karList/node_modules/mongoose/package.json
+verbose loadDefaults mongoose@2.4.1
+silly testEngine { name: 'walk',
+silly testEngine   description: 'A node port of python\'s os.walk',
+silly testEngine   url: 'github.com/coolaj86/node-walk',
+silly testEngine   keywords: [ 'util', 'os', 'sys', 'fs', 'walk', 'walkSync' ],
+silly testEngine   author: { name: 'AJ ONeal', email: 'coolaj86@gmail.com' },
+silly testEngine   contributors: [],
+silly testEngine   dependencies: { forEachAsync: '>= 2.1.0' },
+silly testEngine   lib: '.',
+silly testEngine   main: './walk.js',
+silly testEngine   version: '2.0.2',
+silly testEngine   _id: 'walk@2.0.2',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /vagrant/KarList/karList/node_modules/walk/package.json
+verbose loadDefaults walk@2.0.2
+verbose from cache /vagrant/KarList/karList/package.json
+verbose into /vagrant/KarList/karList [ 'socket.io' ]
+verbose cache add socket.io
+verbose cache add [ 'socket.io', null ]
+silly cache add: name, spec, args [ undefined, 'socket.io', [ 'socket.io', null ] ]
+verbose parsed url { pathname: 'socket.io', path: 'socket.io', href: 'socket.io' }
+info addNamed [ 'socket.io', '' ]
+verbose addNamed [ null, '' ]
+verbose GET socket.io
+verbose raw, before any munging socket.io
+verbose url resolving [ 'http://registry.npmjs.org/', './socket.io' ]
+verbose url resolved http://registry.npmjs.org/socket.io
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"7CXCI4U9OFRKPSE8VNYEECS3K"',
+silly get cb     date: 'Tue, 20 Dec 2011 00:30:18 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '40270',
+silly get cb     'proxy-connection': 'Keep-Alive' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/socket.io'
+verbose mkdir done: /home/vagrant/.npm/socket.io 755
+verbose GET socket.io/0.8.7
+verbose raw, before any munging socket.io/0.8.7
+verbose url resolving [ 'http://registry.npmjs.org/', './socket.io/0.8.7' ]
+verbose url resolved http://registry.npmjs.org/socket.io/0.8.7
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
+silly get cb     etag: '"7CXCI4U9OFRKPSE8VNYEECS3K"',
+silly get cb     date: 'Tue, 20 Dec 2011 00:30:19 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '1267',
+silly get cb     'proxy-connection': 'Keep-Alive' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/socket.io/0.8.7'
+verbose mkdir done: /home/vagrant/.npm/socket.io/0.8.7 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8o-v83.6.6.8-linux-x64-2.6.38-8-server',
+verbose bin dist   { shasum: '98419cb68859a6fc5ec8d49f50dcdbbe2ffd4466',
+verbose bin dist     tarball: 'http://registry.npmjs.org/socket.io/-/socket.io-0.8.7.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/socket.io/-/socket.io-0.8.7.tgz',
+verbose addRemoteTarball   '98419cb68859a6fc5ec8d49f50dcdbbe2ffd4466' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1324341019627'
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1324341019627/1324341019627-0.0038832849822938442'
+verbose mkdir done: /tmp/npm-1324341019627/1324341019627-0.0038832849822938442 755
+info fetch http://registry.npmjs.org/socket.io/-/socket.io-0.8.7.tgz
+verbose fetch to /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/tmp.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 30720
+info shasum 98419cb68859a6fc5ec8d49f50dcdbbe2ffd4466
+info shasum /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents'
+verbose mkdir (expected) error ENOENT, no such file or directory '/tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm'
+verbose mkdir done: /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/tmp/npm-1324341019627/1324341019627-0.0038832849822938442/tmp.tgz' ],
+silly spawning   '/tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm' ]
+silly tar out package/.gitignore
+silly tar out package/.npmignore
+silly tar out package/History.md
+silly tar out package/index.js
+silly tar out package/Makefile
+silly tar out package/package.json
+silly tar out package/Readme.md
+silly tar out package/benchmarks/decode.bench.js
+silly tar out package/benchmarks/encode.bench.js
+silly tar out package/benchmarks/runner.js
+silly tar out package/test/common.js
+silly tar out package/test/hybi-common.js
+silly tar out package/test/io.test.js
+silly tar out package/test/manager.test.js
+silly tar out package/test/namespace.test.js
+silly tar out package/test/parser.test.js
+silly tar out package/test/static.test.js
+silly tar out package/test/stores.memory.test.js
+silly tar out package/test/stores.redis.test.js
+silly tar out package/test/transports.flashsocket.test.js
+silly tar out package/test/transports.htmlfile.test.js
+silly tar out package/test/transports.jsonp-polling.test.js
+silly tar out package/test/transports.websocket.hybi07-12.parser.test.js
+silly tar out package/test/transports.websocket.hybi16.parser.test.js
+silly tar out package/test/transports.websocket.test.js
+silly tar out package/test/transports.xhr-polling.test.js
+silly tar out package/test/fixtures/cert.crt
+silly tar out package/test/fixtures/key.key
+silly tar out package/test/leaks/socket.leaktest.js
+silly tar out package/lib/manager.js
+silly tar out package/lib/logger.js
+silly tar out package/lib/namespace.js
+silly tar out package/lib/parser.js
+silly tar out package/lib/socket.io.js
+silly tar out package/lib/socket.js
+silly tar out package/lib/static.js
+silly tar out package/lib/store.js
+silly tar out package/lib/transport.js
+silly tar out package/lib/util.js
+silly tar out package/lib/stores/memory.js
+silly tar out package/lib/stores/redis.js
+silly tar out package/lib/transports/flashsocket.js
+silly tar out package/lib/transports/htmlfile.js
+silly tar out package/lib/transports/http-polling.js
+silly tar out package/lib/transports/index.js
+silly tar out package/lib/transports/http.js
+silly tar out package/lib/transports/jsonp-polling.js
+silly tar out package/lib/transports/websocket.js
+silly tar out package/lib/transports/xhr-polling.js
+silly tar out package/lib/transports/websocket/default.js
+silly tar out package/lib/transports/websocket/hybi-07-12.js
+silly tar out package/lib/transports/websocket/hybi-16.js
+silly tar out package/lib/transports/websocket/hybi-17.js
+silly tar out package/lib/transports/websocket/index.js
+silly tar out package/support/node-websocket-client/LICENSE
+silly tar out package/support/node-websocket-client/Makefile
+silly tar out package/support/node-websocket-client/package.json
+silly tar out package/support/node-websocket-client/README.md
+silly tar out package/support/node-websocket-client/examples/client-unix.js
+silly tar out package/support/node-websocket-client/examples/client.js
+silly tar out package/support/node-websocket-client/examples/server-unix.js
+silly tar out package/support/node-websocket-client/lib/websocket.js
+silly tar out package/support/node-websocket-client/test/test-client-close.js
+silly tar out package/support/node-websocket-client/test/test-basic.js
+silly tar out package/support/node-websocket-client/test/test-readonly-attrs.js
+silly tar out package/support/node-websocket-client/test/test-server-close.js
+silly tar out package/support/node-websocket-client/test/test-ready-state.js
+silly tar out package/support/node-websocket-client/test/test-unix-send-fd.js
+silly tar out package/support/node-websocket-client/test/test-unix-sockets.js
+silly tar out package/examples/chat/app.js
+silly tar out package/examples/chat/index.jade
+silly tar out package/examples/chat/package.json
+silly tar out package/examples/chat/public/stylesheets/mixins.styl
+silly tar out package/examples/chat/public/stylesheets/style.css
+silly tar out package/examples/chat/public/stylesheets/style.styl
+silly tar out package/examples/irc-output/app.js
+silly tar out package/examples/irc-output/index.jade
+silly tar out package/examples/irc-output/irc.js
+silly tar out package/examples/irc-output/package.json
+silly tar out package/examples/irc-output/public/stylesheets/style.styl
+silly tar exit 0
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/.npmignore
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/index.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/.gitignore
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/History.md
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/Readme.md
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/Makefile
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/package.json
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/benchmarks
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/benchmarks/encode.bench.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/benchmarks/decode.bench.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/benchmarks/runner.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/namespace.test.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/transports.xhr-polling.test.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/manager.test.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/stores.redis.test.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/static.test.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/common.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/stores.memory.test.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/parser.test.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/transports.websocket.hybi07-12.parser.test.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/io.test.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/transports.jsonp-polling.test.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/hybi-common.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/transports.websocket.hybi16.parser.test.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/transports.websocket.test.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/transports.flashsocket.test.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/transports.htmlfile.test.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/leaks
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/leaks/socket.leaktest.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/fixtures
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/fixtures/cert.crt
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/test/fixtures/key.key
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/namespace.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/store.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/logger.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/static.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/manager.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/util.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/parser.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/transport.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/socket.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/socket.io.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/stores
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/stores/redis.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/stores/memory.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/transports
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/transports/index.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/transports/jsonp-polling.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/transports/websocket.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/transports/htmlfile.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/transports/flashsocket.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/transports/xhr-polling.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/transports/http-polling.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/transports/http.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/transports/websocket
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/transports/websocket/index.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/transports/websocket/hybi-07-12.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/transports/websocket/default.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/transports/websocket/hybi-16.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/lib/transports/websocket/hybi-17.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/support
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/support/node-websocket-client
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/support/node-websocket-client/README.md
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/support/node-websocket-client/Makefile
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/support/node-websocket-client/LICENSE
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/support/node-websocket-client/package.json
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/support/node-websocket-client/examples
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/support/node-websocket-client/examples/client.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/support/node-websocket-client/examples/server-unix.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/support/node-websocket-client/examples/client-unix.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/support/node-websocket-client/test
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/support/node-websocket-client/test/test-client-close.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/support/node-websocket-client/test/test-basic.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/support/node-websocket-client/test/test-server-close.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/support/node-websocket-client/test/test-ready-state.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/support/node-websocket-client/test/test-readonly-attrs.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/support/node-websocket-client/test/test-unix-sockets.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/support/node-websocket-client/test/test-unix-send-fd.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/support/node-websocket-client/lib
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/support/node-websocket-client/lib/websocket.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/examples
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/examples/chat
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/examples/chat/index.jade
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/examples/chat/app.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/examples/chat/package.json
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/examples/chat/public
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/examples/chat/public/stylesheets
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/examples/chat/public/stylesheets/mixins.styl
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/examples/chat/public/stylesheets/style.css
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/examples/chat/public/stylesheets/style.styl
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/examples/irc-output
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/examples/irc-output/index.jade
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/examples/irc-output/irc.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/examples/irc-output/app.js
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/examples/irc-output/package.json
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/examples/irc-output/public
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/examples/irc-output/public/stylesheets
+silly asyncMap in gTP /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package/examples/irc-output/public/stylesheets/style.styl
+verbose gunzed /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package
+verbose rm'ed /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/package
+verbose renamed [ '/tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/___package.npm/package',
+verbose renamed   '/tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/package' ]
+silly testEngine { name: 'socket.io',
+silly testEngine   version: '0.8.7',
+silly testEngine   description: 'Real-time apps made cross-browser & easy with a WebSocket-like API',
+silly testEngine   homepage: 'http://socket.io',
+silly testEngine   keywords: [ 'websocket', 'socket', 'realtime', 'socket.io', 'comet', 'ajax' ],
+silly testEngine   author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' },
+silly testEngine      { name: 'Arnout Kazemier', email: 'info@3rd-eden.com' },
+silly testEngine      { name: 'Vladimir Dronnikov', email: 'dronnikov@gmail.com' },
+silly testEngine      { name: 'Einar Otto Stangvik', email: 'einaros@gmail.com' } ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/LearnBoost/socket.io.git' },
+silly testEngine   dependencies: 
+silly testEngine    { 'socket.io-client': '0.8.7',
+silly testEngine      policyfile: '0.0.4',
+silly testEngine      redis: '0.6.7' },
+silly testEngine   devDependencies: 
+silly testEngine    { expresso: '0.9.2',
+silly testEngine      should: '0.0.4',
+silly testEngine      assertvanish: '0.0.3-1',
+silly testEngine      benchmark: '0.2.2',
+silly testEngine      microtime: '0.1.3-1',
+silly testEngine      colors: '0.5.1' },
+silly testEngine   main: 'index',
+silly testEngine   engines: { node: '>= 0.4.0' },
+silly testEngine   _id: 'socket.io@0.8.7',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/package' }
+verbose caching /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/package/package.json
+verbose loadDefaults socket.io@0.8.7
+verbose tarball contents [ 'package' ]
+verbose from cache /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/package/package.json
+verbose pack /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/package /home/vagrant/.npm/socket.io/0.8.7/package.tgz
+silly makeList /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/package
+silly testEngine { name: 'chat.io',
+silly testEngine   description: 'example chat application with socket.io',
+silly testEngine   version: '0.0.1',
+silly testEngine   dependencies: 
+silly testEngine    { express: '2.5.0',
+silly testEngine      jade: '0.16.4',
+silly testEngine      stylus: '0.19.0',
+silly testEngine      nib: '0.2.0' },
+silly testEngine   _id: 'chat.io@0.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/package/examples/chat' }
+verbose caching /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/package/examples/chat/package.json
+verbose loadDefaults chat.io@0.0.1
+silly testEngine { name: 'socket.io-irc',
+silly testEngine   version: '0.0.1',
+silly testEngine   dependencies: 
+silly testEngine    { express: '2.5.0',
+silly testEngine      jade: '0.16.4',
+silly testEngine      stylus: '0.19.0',
+silly testEngine      nib: '0.2.0' },
+silly testEngine   _id: 'socket.io-irc@0.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/package/examples/irc-output' }
+verbose caching /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/package/examples/irc-output/package.json
+verbose loadDefaults socket.io-irc@0.0.1
+silly testEngine { name: 'websocket-client',
+silly testEngine   version: '1.0.0',
+silly testEngine   description: 'An HTML5 Web Sockets client',
+silly testEngine   author: { name: 'Peter Griess', email: 'pg@std.in' },
+silly testEngine   engines: { node: '>=0.1.98' },
+silly testEngine   repositories: 
+silly testEngine    [ { type: 'git',
+silly testEngine        url: 'http://github.com/pgriess/node-websocket-client.git' } ],
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'BSD',
+silly testEngine        url: 'http://github.com/pgriess/node-websocket-client/blob/master/LICENSE' } ],
+silly testEngine   main: './lib/websocket',
+silly testEngine   _id: 'websocket-client@1.0.0',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/package/support/node-websocket-client' }
+verbose caching /tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents/package/support/node-websocket-client/package.json
+verbose loadDefaults websocket-client@1.0.0
+verbose mkdir'ed /home/vagrant/.npm/socket.io/0.8.7
+verbose tar about to write tar and gzip it.
+silly tar args [ '-czvf', '-', '-T', '-' ]
+silly spawning [ 'tar',
+silly spawning   [ '-czvf', '-', '-T', '-' ],
+silly spawning   '/tmp/npm-1324341019627/1324341019627-0.0038832849822938442/contents' ]
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/vagrant/.npm/socket.io/0.8.7/___package.npm'
+verbose mkdir done: /home/vagrant/.npm/socket.io/0.8.7/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/vagrant/.npm/socket.io/0.8.7/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/vagrant/.npm/socket.io/0.8.7/package.tgz' ],
+silly spawning   '/home/vagrant/.npm/socket.io/0.8.7/___package.npm' ]
+silly tar out package/.npmignore
+silly tar out package/index.js
+silly tar out package/.gitignore
+silly tar out package/History.md
+silly tar out package/Readme.md
+silly tar out package/Makefile
+silly tar out package/package.json
+silly tar out package/benchmarks/encode.bench.js
+silly tar out package/benchmarks/decode.bench.js
+silly tar out package/benchmarks/runner.js
+silly tar out package/test/namespace.test.js
+silly tar out package/test/transports.xhr-polling.test.js
+silly tar out package/test/manager.test.js
+silly tar out package/test/stores.redis.test.js
+silly tar out package/test/static.test.js
+silly tar out package/test/common.js
+silly tar out package/test/stores.memory.test.js
+silly tar out package/test/parser.test.js
+silly tar out package/test/transports.websocket.hybi07-12.parser.test.js
+silly tar out package/test/io.test.js
+silly tar out package/test/transports.jsonp-polling.test.js
+silly tar out package/test/hybi-common.js
+silly tar out package/test/transports.websocket.hybi16.parser.test.js
+silly tar out package/test/transports.websocket.test.js
+silly tar out package/test/transports.flashsocket.test.js
+silly tar out package/test/transports.htmlfile.test.js
+silly tar out package/test/leaks/socket.leaktest.js
+silly tar out package/test/fixtures/cert.crt
+silly tar out package/test/fixtures/key.key
+silly tar out package/lib/namespace.js
+silly tar out package/lib/store.js
+silly tar out package/lib/logger.js
+silly tar out package/lib/static.js
+silly tar out package/lib/manager.js
+silly tar out package/lib/util.js
+silly tar out package/lib/parser.js
+silly tar out package/lib/transport.js
+silly tar out package/lib/socket.js
+silly tar out package/lib/socket.io.js
+silly tar out package/lib/stores/redis.js
+silly tar out package/lib/stores/memory.js
+silly tar out package/lib/transports/index.js
+silly tar out package/lib/transports/jsonp-polling.js
+silly tar out package/lib/transports/websocket.js
+silly tar out package/lib/transports/htmlfile.js
+silly tar out package/lib/transports/flashsocket.js
+silly tar out package/lib/transports/xhr-polling.js
+silly tar out package/lib/transports/http-polling.js
+silly tar out package/lib/transports/http.js
+silly tar out package/lib/transports/websocket/index.js
+silly tar out package/lib/transports/websocket/hybi-07-12.js
+silly tar out package/lib/transports/websocket/default.js
+silly tar out package/lib/transports/websocket/hybi-16.js
+silly tar out package/lib/transports/websocket/hybi-17.js
+silly tar out package/support/node-websocket-client/README.md
+silly tar out package/support/node-websocket-client/Makefile
+silly tar out package/support/node-websocket-client/LICENSE
+silly tar out package/support/node-websocket-client/package.json
+silly tar out package/support/node-websocket-client/examples/client.js
+silly tar out package/support/node-websocket-client/examples/server-unix.js
+silly tar out package/support/node-websocket-client/examples/client-unix.js
+silly tar out package/support/node-websocket-client/test/test-client-close.js
+silly tar out package/support/node-websocket-client/test/test-basic.js
+silly tar out package/support/node-websocket-client/test/test-server-close.js
+silly tar out package/support/node-websocket-client/test/test-ready-state.js
+silly tar out package/support/node-websocket-client/test/test-readonly-attrs.js
+silly tar out package/support/node-websocket-client/test/test-unix-sockets.js
+silly tar out package/support/node-websocket-client/test/test-unix-send-fd.js
+silly tar out package/support/node-websocket-client/lib/websocket.js
+silly tar out package/examples/chat/index.jade
+silly tar out package/examples/chat/app.js
+silly tar out package/examples/chat/package.json
+silly tar out package/examples/chat/public/stylesheets/mixins.styl
+silly tar out package/examples/chat/public/stylesheets/style.css
+silly tar out package/examples/chat/public/stylesheets/style.styl
+silly tar out package/examples/irc-output/index.jade
+silly tar out package/examples/irc-output/irc.js
+silly tar out package/examples/irc-output/app.js
+silly tar out package/examples/irc-output/package.json
+silly tar out package/examples/irc-output/public/stylesheets/style.styl
+silly tar exit 0
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/.npmignore
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/index.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/.gitignore
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/History.md
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/Readme.md
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/Makefile
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/package.json
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/benchmarks
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/benchmarks/encode.bench.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/benchmarks/decode.bench.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/benchmarks/runner.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/namespace.test.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/transports.xhr-polling.test.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/manager.test.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/stores.redis.test.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/static.test.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/common.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/stores.memory.test.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/parser.test.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/transports.websocket.hybi07-12.parser.test.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/io.test.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/transports.jsonp-polling.test.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/hybi-common.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/transports.websocket.hybi16.parser.test.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/transports.websocket.test.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/transports.flashsocket.test.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/transports.htmlfile.test.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/leaks
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/leaks/socket.leaktest.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/fixtures
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/fixtures/cert.crt
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/test/fixtures/key.key
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/namespace.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/store.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/logger.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/static.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/manager.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/util.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/parser.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/transport.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/socket.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/socket.io.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/stores
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/stores/redis.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/stores/memory.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/transports
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/transports/index.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/transports/jsonp-polling.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/transports/websocket.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/transports/htmlfile.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/transports/flashsocket.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/transports/xhr-polling.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/transports/http-polling.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/transports/http.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/transports/websocket
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/transports/websocket/index.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/transports/websocket/hybi-07-12.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/transports/websocket/default.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/transports/websocket/hybi-16.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/lib/transports/websocket/hybi-17.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/support
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/support/node-websocket-client
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/support/node-websocket-client/README.md
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/support/node-websocket-client/Makefile
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/support/node-websocket-client/LICENSE
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/support/node-websocket-client/package.json
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/support/node-websocket-client/examples
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/support/node-websocket-client/examples/client.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/support/node-websocket-client/examples/server-unix.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/support/node-websocket-client/examples/client-unix.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/support/node-websocket-client/test
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/support/node-websocket-client/test/test-client-close.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/support/node-websocket-client/test/test-basic.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/support/node-websocket-client/test/test-server-close.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/support/node-websocket-client/test/test-ready-state.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/support/node-websocket-client/test/test-readonly-attrs.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/support/node-websocket-client/test/test-unix-sockets.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/support/node-websocket-client/test/test-unix-send-fd.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/support/node-websocket-client/lib
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/support/node-websocket-client/lib/websocket.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/examples
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/examples/chat
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/examples/chat/index.jade
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/examples/chat/app.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/examples/chat/package.json
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/examples/chat/public
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/examples/chat/public/stylesheets
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/examples/chat/public/stylesheets/mixins.styl
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/examples/chat/public/stylesheets/style.css
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/examples/chat/public/stylesheets/style.styl
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/examples/irc-output
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/examples/irc-output/index.jade
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/examples/irc-output/irc.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/examples/irc-output/app.js
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/examples/irc-output/package.json
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/examples/irc-output/public
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/examples/irc-output/public/stylesheets
+silly asyncMap in gTP /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package/examples/irc-output/public/stylesheets/style.styl
+verbose gunzed /home/vagrant/.npm/socket.io/0.8.7/___package.npm/package
+verbose rm'ed /home/vagrant/.npm/socket.io/0.8.7/package
+verbose renamed [ '/home/vagrant/.npm/socket.io/0.8.7/___package.npm/package',
+verbose renamed   '/home/vagrant/.npm/socket.io/0.8.7/package' ]
+silly testEngine { name: 'socket.io',
+silly testEngine   version: '0.8.7',
+silly testEngine   description: 'Real-time apps made cross-browser & easy with a WebSocket-like API',
+silly testEngine   homepage: 'http://socket.io',
+silly testEngine   keywords: [ 'websocket', 'socket', 'realtime', 'socket.io', 'comet', 'ajax' ],
+silly testEngine   author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' },
+silly testEngine      { name: 'Arnout Kazemier', email: 'info@3rd-eden.com' },
+silly testEngine      { name: 'Vladimir Dronnikov', email: 'dronnikov@gmail.com' },
+silly testEngine      { name: 'Einar Otto Stangvik', email: 'einaros@gmail.com' } ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/LearnBoost/socket.io.git' },
+silly testEngine   dependencies: 
+silly testEngine    { 'socket.io-client': '0.8.7',
+silly testEngine      policyfile: '0.0.4',
+silly testEngine      redis: '0.6.7' },
+silly testEngine   devDependencies: 
+silly testEngine    { expresso: '0.9.2',
+silly testEngine      should: '0.0.4',
+silly testEngine      assertvanish: '0.0.3-1',
+silly testEngine      benchmark: '0.2.2',
+silly testEngine      microtime: '0.1.3-1',
+silly testEngine      colors: '0.5.1' },
+silly testEngine   main: 'index',
+silly testEngine   engines: { node: '>= 0.4.0' },
+silly testEngine   _id: 'socket.io@0.8.7',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.106',
+silly testEngine   _nodeVersion: 'v0.6.3',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: { shasum: 'd2fb28dfd32d6175d22e8b9ad03dfa6a84e570be' } }
+verbose caching /home/vagrant/.npm/socket.io/0.8.7/package/package.json
+verbose loadDefaults socket.io@0.8.7
+silly updated sha bytes 40960
+silly updated sha bytes 31072
+info shasum d2fb28dfd32d6175d22e8b9ad03dfa6a84e570be
+info shasum /home/vagrant/.npm/socket.io/0.8.7/package.tgz
+verbose from cache /home/vagrant/.npm/socket.io/0.8.7/package/package.json
+verbose chmod /home/vagrant/.npm/socket.io/0.8.7/package.tgz 644
+verbose chown [ '/home/vagrant/.npm/socket.io/0.8.7/package.tgz', 1000, 1000 ]
+silly resolved [ { name: 'socket.io',
+silly resolved     version: '0.8.7',
+silly resolved     description: 'Real-time apps made cross-browser & easy with a WebSocket-like API',
+silly resolved     homepage: 'http://socket.io',
+silly resolved     keywords: [ 'websocket', 'socket', 'realtime', 'socket.io', 'comet', 'ajax' ],
+silly resolved     author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' },
+silly resolved        { name: 'Arnout Kazemier', email: 'info@3rd-eden.com' },
+silly resolved        { name: 'Vladimir Dronnikov', email: 'dronnikov@gmail.com' },
+silly resolved        { name: 'Einar Otto Stangvik', email: 'einaros@gmail.com' } ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/LearnBoost/socket.io.git' },
+silly resolved     dependencies: 
+silly resolved      { 'socket.io-client': '0.8.7',
+silly resolved        policyfile: '0.0.4',
+silly resolved        redis: '0.6.7' },
+silly resolved     devDependencies: 
+silly resolved      { expresso: '0.9.2',
+silly resolved        should: '0.0.4',
+silly resolved        assertvanish: '0.0.3-1',
+silly resolved        benchmark: '0.2.2',
+silly resolved        microtime: '0.1.3-1',
+silly resolved        colors: '0.5.1' },
+silly resolved     main: 'index',
+silly resolved     engines: { node: '>= 0.4.0' },
+silly resolved     _id: 'socket.io@0.8.7',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.106',
+silly resolved     _nodeVersion: 'v0.6.3',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'd2fb28dfd32d6175d22e8b9ad03dfa6a84e570be' } } ]
+info into /vagrant/KarList/karList socket.io@0.8.7
+info installOne socket.io@0.8.7
+info unbuild /vagrant/KarList/karList/node_modules/socket.io
+verbose from cache /home/vagrant/.npm/socket.io/0.8.7/package/package.json
+verbose mkdir (expected) error ENOENT, no such file or directory '/vagrant/KarList/karList/node_modules/___socket.io.npm'
+verbose mkdir done: /vagrant/KarList/karList/node_modules/___socket.io.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /vagrant/KarList/karList/node_modules/socket.io
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf', '/home/vagrant/.npm/socket.io/0.8.7/package.tgz' ],
+silly spawning   '/vagrant/KarList/karList/node_modules/___socket.io.npm' ]
+silly tar out package/.npmignore
+silly tar out package/index.js
+silly tar out package/.gitignore
+silly tar out package/History.md
+silly tar out package/Readme.md
+silly tar out package/Makefile
+silly tar out package/package.json
+silly tar out package/benchmarks/encode.bench.js
+silly tar out package/benchmarks/decode.bench.js
+silly tar out package/benchmarks/runner.js
+silly tar out package/test/namespace.test.js
+silly tar out package/test/transports.xhr-polling.test.js
+silly tar out package/test/manager.test.js
+silly tar out package/test/stores.redis.test.js
+silly tar out package/test/static.test.js
+silly tar out package/test/common.js
+silly tar out package/test/stores.memory.test.js
+silly tar out package/test/parser.test.js
+silly tar out package/test/transports.websocket.hybi07-12.parser.test.js
+silly tar out package/test/io.test.js
+silly tar out package/test/transports.jsonp-polling.test.js
+silly tar out package/test/hybi-common.js
+silly tar out package/test/transports.websocket.hybi16.parser.test.js
+silly tar out package/test/transports.websocket.test.js
+silly tar out package/test/transports.flashsocket.test.js
+silly tar out package/test/transports.htmlfile.test.js
+silly tar out package/test/leaks/socket.leaktest.js
+silly tar out package/test/fixtures/cert.crt
+silly tar out package/test/fixtures/key.key
+silly tar out package/lib/namespace.js
+silly tar out package/lib/store.js
+silly tar out package/lib/logger.js
+silly tar out package/lib/static.js
+silly tar out package/lib/manager.js
+silly tar out package/lib/util.js
+silly tar out package/lib/parser.js
+silly tar out package/lib/transport.js
+silly tar out package/lib/socket.js
+silly tar out package/lib/socket.io.js
+silly tar out package/lib/stores/redis.js
+silly tar out package/lib/stores/memory.js
+silly tar out package/lib/transports/index.js
+silly tar out package/lib/transports/jsonp-polling.js
+silly tar out package/lib/transports/websocket.js
+silly tar out package/lib/transports/htmlfile.js
+silly tar out package/lib/transports/flashsocket.js
+silly tar out package/lib/transports/xhr-polling.js
+silly tar out package/lib/transports/http-polling.js
+silly tar out package/lib/transports/http.js
+silly tar out package/lib/transports/websocket/index.js
+silly tar out package/lib/transports/websocket/hybi-07-12.js
+silly tar out package/lib/transports/websocket/default.js
+silly tar out package/lib/transports/websocket/hybi-16.js
+silly tar out package/lib/transports/websocket/hybi-17.js
+silly tar out package/support/node-websocket-client/README.md
+silly tar out package/support/node-websocket-client/Makefile
+silly tar out package/support/node-websocket-client/LICENSE
+silly tar out package/support/node-websocket-client/package.json
+silly tar out package/support/node-websocket-client/examples/client.js
+silly tar out package/support/node-websocket-client/examples/server-unix.js
+silly tar out package/support/node-websocket-client/examples/client-unix.js
+silly tar out package/support/node-websocket-client/test/test-client-close.js
+silly tar out package/support/node-websocket-client/test/test-basic.js
+silly tar out package/support/node-websocket-client/test/test-server-close.js
+silly tar out package/support/node-websocket-client/test/test-ready-state.js
+silly tar out package/support/node-websocket-client/test/test-readonly-attrs.js
+silly tar out package/support/node-websocket-client/test/test-unix-sockets.js
+silly tar out package/support/node-websocket-client/test/test-unix-send-fd.js
+silly tar out package/support/node-websocket-client/lib/websocket.js
+silly tar out package/examples/chat/index.jade
+silly tar out package/examples/chat/app.js
+silly tar out package/examples/chat/package.json
+silly tar out package/examples/chat/public/stylesheets/mixins.styl
+silly tar out package/examples/chat/public/stylesheets/style.css
+silly tar out package/examples/chat/public/stylesheets/style.styl
+silly tar out package/examples/irc-output/index.jade
+silly tar out package/examples/irc-output/irc.js
+silly tar out package/examples/irc-output/app.js
+silly tar out package/examples/irc-output/package.json
+silly tar out package/examples/irc-output/public/stylesheets/style.styl
+silly tar exit 0
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/.gitignore
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/.npmignore
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/index.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/Readme.md
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/package.json
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/Makefile
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/History.md
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/benchmarks
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/benchmarks/decode.bench.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/benchmarks/encode.bench.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/benchmarks/runner.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/common.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/hybi-common.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/io.test.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/manager.test.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/namespace.test.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/parser.test.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/static.test.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/stores.memory.test.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/transports.flashsocket.test.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/stores.redis.test.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/transports.jsonp-polling.test.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/transports.htmlfile.test.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/transports.websocket.hybi07-12.parser.test.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/transports.websocket.hybi16.parser.test.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/transports.websocket.test.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/transports.xhr-polling.test.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/fixtures
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/fixtures/cert.crt
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/fixtures/key.key
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/leaks
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/test/leaks/socket.leaktest.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/logger.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/manager.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/namespace.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/parser.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/socket.io.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/socket.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/static.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/store.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/transport.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/util.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/stores
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/stores/memory.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/stores/redis.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/transports
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/transports/http-polling.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/transports/flashsocket.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/transports/htmlfile.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/transports/http.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/transports/index.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/transports/jsonp-polling.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/transports/websocket.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/transports/xhr-polling.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/transports/websocket
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/transports/websocket/default.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/transports/websocket/hybi-07-12.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/transports/websocket/hybi-16.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/transports/websocket/hybi-17.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/lib/transports/websocket/index.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/support
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/support/node-websocket-client
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/support/node-websocket-client/LICENSE
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/support/node-websocket-client/Makefile
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/support/node-websocket-client/package.json
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/support/node-websocket-client/README.md
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/support/node-websocket-client/examples
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/support/node-websocket-client/examples/client-unix.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/support/node-websocket-client/examples/client.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/support/node-websocket-client/examples/server-unix.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/support/node-websocket-client/lib
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/support/node-websocket-client/lib/websocket.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/support/node-websocket-client/test
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/support/node-websocket-client/test/test-basic.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/support/node-websocket-client/test/test-client-close.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/support/node-websocket-client/test/test-readonly-attrs.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/support/node-websocket-client/test/test-ready-state.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/support/node-websocket-client/test/test-server-close.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/support/node-websocket-client/test/test-unix-send-fd.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/support/node-websocket-client/test/test-unix-sockets.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/examples
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/examples/chat
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/examples/chat/app.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/examples/chat/index.jade
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/examples/chat/package.json
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/examples/chat/public
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/examples/chat/public/stylesheets
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/examples/chat/public/stylesheets/mixins.styl
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/examples/chat/public/stylesheets/style.css
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/examples/chat/public/stylesheets/style.styl
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/examples/irc-output
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/examples/irc-output/app.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/examples/irc-output/index.jade
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/examples/irc-output/package.json
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/examples/irc-output/irc.js
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/examples/irc-output/public
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/examples/irc-output/public/stylesheets
+silly asyncMap in gTP /vagrant/KarList/karList/node_modules/___socket.io.npm/package/examples/irc-output/public/stylesheets/style.styl
+silly chmod .gitignore 755
+silly chmod package 755
+silly chmod .npmignore 755
+silly chmod index.js 755
+silly chmod Readme.md 755
+silly chmod package.json 755
+silly chmod Makefile 755
+silly chmod History.md 755
+silly chmod benchmarks 755
+silly chmod decode.bench.js 755
+silly chmod encode.bench.js 755
+silly chmod runner.js 755
+silly chmod test 755
+silly chmod common.js 755
+silly chmod hybi-common.js 755
+silly chmod io.test.js 755
+silly chmod manager.test.js 755
+silly chmod namespace.test.js 755
+silly chmod parser.test.js 755
+silly chmod static.test.js 755
+silly chmod stores.memory.test.js 755
+silly chmod transports.flashsocket.test.js 755
+silly chmod stores.redis.test.js 755
+silly chmod transports.jsonp-polling.test.js 755
+silly chmod transports.htmlfile.test.js 755
+silly chmod transports.websocket.hybi07-12.parser.test.js 755
+silly chmod transports.websocket.hybi16.parser.test.js 755
+silly chmod transports.websocket.test.js 755
+silly chmod transports.xhr-polling.test.js 755
+silly chmod fixtures 755
+silly chmod cert.crt 755
+silly chmod key.key 755
+silly chmod socket.leaktest.js 755
+silly chmod leaks 755
+silly chmod lib 755
+silly chmod logger.js 755
+silly chmod manager.js 755
+silly chmod namespace.js 755
+silly chmod parser.js 755
+silly chmod socket.io.js 755
+silly chmod socket.js 755
+silly chmod static.js 755
+silly chmod store.js 755
+silly chmod transport.js 755
+silly chmod util.js 755
+silly chmod stores 755
+silly chmod memory.js 755
+silly chmod redis.js 755
+silly chmod transports 755
+silly chmod http-polling.js 755
+silly chmod flashsocket.js 755
+silly chmod htmlfile.js 755
+silly chmod http.js 755
+silly chmod index.js 755
+silly chmod jsonp-polling.js 755
+silly chmod websocket.js 755
+silly chmod xhr-polling.js 755
+silly chmod websocket 755
+silly chmod default.js 755
+silly chmod hybi-07-12.js 755
+silly chmod hybi-16.js 755
+silly chmod hybi-17.js 755
+silly chmod index.js 755
+silly chmod support 755
+silly chmod node-websocket-client 755
+silly chmod LICENSE 755
+silly chmod package.json 755
+silly chmod Makefile 755
+silly chmod README.md 755
+silly chmod examples 755
+silly chmod client-unix.js 755
+silly chmod client.js 755
+silly chmod lib 755
+silly chmod server-unix.js 755
+silly chmod websocket.js 755
+silly chmod test 755
+silly chmod test-basic.js 755
+silly chmod test-client-close.js 755
+silly chmod test-readonly-attrs.js 755
+silly chmod test-ready-state.js 755
+silly chmod test-server-close.js 755
+silly chmod test-unix-send-fd.js 755
+silly chmod test-unix-sockets.js 755
+silly chmod examples 755
+silly chmod chat 755
+silly chmod app.js 755
+silly chmod index.jade 755
+silly chmod package.json 755
+silly chmod public 755
+silly chmod stylesheets 755
+silly chmod mixins.styl 755
+silly chmod style.css 755
+silly chmod style.styl 755
+silly chmod irc-output 755
+silly chmod app.js 755
+silly chmod index.jade 755
+silly chmod package.json 755
+silly chmod irc.js 755
+silly chmod public 755
+silly chmod stylesheets 755
+silly chmod style.styl 755
+verbose gunzed /vagrant/KarList/karList/node_modules/___socket.io.npm/package
+verbose rm'ed /vagrant/KarList/karList/node_modules/socket.io
+verbose renamed [ '/vagrant/KarList/karList/node_modules/___socket.io.npm/package',
+verbose renamed   '/vagrant/KarList/karList/node_modules/socket.io' ]
+ERR! error installing socket.io@0.8.7 Error: ENOENT, no such file or directory '/vagrant/KarList/karList/node_modules/socket.io/package.json'
+info unbuild /vagrant/KarList/karList/node_modules/socket.io
+ERR! error rolling back socket.io@0.8.7 Error: UNKNOWN, unknown error '/vagrant/KarList/karList/node_modules/socket.io'
+verbose installOne cb socket.io@0.8.7
+ERR! Error: ENOENT, no such file or directory '/vagrant/KarList/karList/node_modules/socket.io/package.json'
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Linux 2.6.38-8-server
+ERR! command "node" "/usr/local/bin/npm" "install" "socket.io"
+ERR! cwd /vagrant/KarList/karList
+ERR! node -v v0.6.3
+ERR! npm -v 1.0.106
+ERR! path /vagrant/KarList/karList/node_modules/socket.io/package.json
+ERR! code ENOENT
+verbose exit [ 1, true ]

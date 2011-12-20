@@ -6,6 +6,7 @@ div
 		input(type="submit",value="Buscar")
 div#pendientes
 	each item in Pedidos
-		div.pedido
+		div.pedido(id="#{item._id}")
 			p.cancion Cancion: #{item.Cancion}
 			p.sol Solicitante #{item.Persona}
+script(src='/javascripts/actualizar.js')
